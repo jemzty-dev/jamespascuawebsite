@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+}
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo-container h1{
+    color: antiquewhite;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.logo-container h1 span{
+    font-weight: 500;
+}
+
+.nav{
+    float: right;
+    height: 100%;
+}
+
+.nav a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.nav a:last-child{
+    padding-right: 0;
+}
+
+.nav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+}
+
+.upper-body{
+    width: 100%;
+    height: 1000px;
+    display: block;
+    background-color: #dceaff;
+}
+
+.upper-body h1{
+    float: right;
+    margin-top: 10%;
+    padding-right: 35%;
+    color: rgb(36, 36, 36);
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.personal-info{
+    color: rgb(36, 36, 36);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.display-photo{
+    float: left;
+    width: 40%;
+    height: 75%;
+    margin-left: 10%;
+    margin-top: 50px;
+}
